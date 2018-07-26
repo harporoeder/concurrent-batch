@@ -1,0 +1,20 @@
+name:                concurrent-batch
+version:             0.1.0.0
+github:              "harporoeder/concurrent-batch"
+license:             BSD3
+author:              "Harpo Roeder"
+maintainer:          "roederharpo@protonmail.ch"
+copyright:           "2018 Harpo Roeder"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/harporoeder/concurrent-batch#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- stm
+- clock
+
+library:
+  source-dirs: src
