@@ -21,6 +21,6 @@ main = do
   mapM_ (writeBatch batcher) [1 2 3]
   -- Get the first result batch
   batch1 <- atomically $ takeTMVar output
-  -- See [1 2 3]
+  -- See [3 2 1]
   putStrLn batch1
 ```
